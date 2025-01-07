@@ -23,3 +23,7 @@ int	ft_printf(const char *format, ...)
 	va_end(args);
 	return (sum);
 }
+int main()
+{
+	ft_printf("%s","NULL");
+}

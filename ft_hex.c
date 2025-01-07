@@ -39,12 +39,10 @@ static int	fill(unsigned int n, char *hex)
 
 int	ft_hex(unsigned int nb, char c)
 {
-	int		div;
 	int		count;
 	char	*hex;
 
 	count = 0;
-	div = 0;
 	if (nb == 0)
 	{
 		ft_putchar_fd('0', 1);
